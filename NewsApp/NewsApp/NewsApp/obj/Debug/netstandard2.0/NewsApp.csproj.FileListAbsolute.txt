@@ -1,0 +1,11 @@
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\bin\Debug\netstandard2.0\NewsApp.deps.json
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\bin\Debug\netstandard2.0\NewsApp.dll
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\NewsApp.csprojAssemblyReference.cache
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\NewsApp.AssemblyInfoInputs.cache
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\NewsApp.AssemblyInfo.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\ReusableControls\ArticleItem.xaml.g.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\Views\AboutView.xaml.g.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\Views\ArticlesView.xaml.g.cs
+C:\Users\aidil\source\repos\My_Xamarin\newsapp\NewsApp\NewsApp\NewsApp\obj\Debug\netstandard2.0\Views\HeadlinesView.xaml.g.cs

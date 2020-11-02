@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MwdlEsmib8toK7bKAGJmkCYAwvr06tKyoxN8Qz5ViIaEghqScTooUkqGLY18YvrF37IVQpsqZ528jaGRrorjSw==",
+  "dgSpecHash": "zzK5QIQY9hWQqoE1rpt0p6LiNYjsEyMlWkuQ4Vm4xMyGvlqg2Mu5HaJAxA68cWaF+91T1AqFSE0A5HR3s95KVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aidil\\source\\repos\\My_Xamarin\\newsapp\\NewsApp\\NewsApp\\NewsApp\\NewsApp.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\aidil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\aidil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\aidil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aidil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\aidil\\.nuget\\packages\\propertychanged.fody\\3.2.10\\propertychanged.fody.3.2.10.nupkg.sha512",
     "C:\\Users\\aidil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\aidil\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

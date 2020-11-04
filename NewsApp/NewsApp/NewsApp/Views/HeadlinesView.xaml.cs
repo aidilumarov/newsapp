@@ -1,6 +1,9 @@
-﻿using System;
+﻿using NewsApp.DependencyInjection;
+using NewsApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +18,21 @@ namespace NewsApp.Views
         public HeadlinesView()
         {
             InitializeComponent();
+            Task.Run(async () => await Initialize("Headlines"));
+        }
+
+        public HeadlinesView(string scope)
+        {
+            InitializeComponent();
+            Title = $"{scope} news";
+            Task.Run(async () => await Initialize(scope));
+        }
+
+        private async Task Initialize(string scope)
+        {
+            var viewModel = Resolver.Resolve<HeadlinesViewModel>();
+            BindingContext = viewModel;
+            await viewModel.Initialize(scope);
         }
     }
 }

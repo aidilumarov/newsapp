@@ -23,7 +23,7 @@
     <EmbeddedResource Update="MainShell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ReusableControls\ArticleItem.xaml">
+    <EmbeddedResource Update="ReusableViews\ArticleItem.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AboutView.xaml">

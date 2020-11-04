@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace NewsApp.ReusableControls
+namespace NewsApp.ReusableViews
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ArticleItem : ContentView

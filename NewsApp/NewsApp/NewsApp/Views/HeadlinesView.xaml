@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:reusableViews="clr-namespace:NewsApp.ReusableViews"
+             x:Name="headlinesView"
              Title="Home"
              x:Class="NewsApp.Views.HeadlinesView">
     <ContentPage.Content>
@@ -17,7 +18,7 @@
                         <ContentView>
                             <ContentView.GestureRecognizers>
                                 <TapGestureRecognizer 
-                                    Command="{Binding BindingCotext.ItemSelected,
+                                    Command="{Binding BindingContext.ItemSelected,
                                     Source={x:Reference headlinesView}}" 
                                     CommandParameter="{Binding .}" />
                             </ContentView.GestureRecognizers>

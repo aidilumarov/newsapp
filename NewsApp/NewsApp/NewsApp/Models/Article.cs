@@ -18,7 +18,7 @@ namespace NewsApp.Models
 
         public string UrlToImage { get; set; }
 
-        public DateTimeOffset PublishedAt { get; set; }
+        public DateTime PublishedAt { get; set; }
 
         public string Content { get; set; }
     }

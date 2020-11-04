@@ -3,16 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:NewsApp.Views"
              mc:Ignorable="d"
              x:Class="NewsApp.MainShell">
     <FlyoutItem Title="Home"
                 Icon="{StaticResource HomeIcon}">
-        <ShellContent Title="HeadLines" Icon="{StaticResource HeadlinesIcon}">
-            <ContentPage Title="Headlines" />
-        </ShellContent>
-        <Tab Title="News" Icon="{StaticResource NewsIcon}">
-            <ContentPage Title="Local" />
-            <ContentPage Title="Global" />
+        <ShellContent Title="HeadLines" 
+                      Icon="{StaticResource HeadlinesIcon}"
+                      ContentTemplate="{DataTemplate views:HeadlinesView}" />
+        <Tab Title="News"
+             Route="news"
+             Icon="{StaticResource NewsIcon}">
+            
+            <ShellContent Title="Local" Route="local">
+                <ShellContent.ContentTemplate>
+                    <DataTemplate>
+                        <views:HeadlinesView>
+                            <x:Arguments>
+                                <x:String>Local</x:String>
+                            </x:Arguments>
+                        </views:HeadlinesView>
+                    </DataTemplate>
+                </ShellContent.ContentTemplate>
+            </ShellContent>
+
+            <ShellContent Title="Global" Route="global">
+                <ShellContent.ContentTemplate>
+                    <DataTemplate>
+                        <views:HeadlinesView>
+                            <x:Arguments>
+                                <x:String>Global</x:String>
+                            </x:Arguments>
+                        </views:HeadlinesView>
+                    </DataTemplate>
+                </ShellContent.ContentTemplate>
+            </ShellContent>
         </Tab>
     </FlyoutItem>
 

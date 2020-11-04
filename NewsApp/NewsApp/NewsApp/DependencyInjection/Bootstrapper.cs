@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using NewsApp.Services;
 using NewsApp.ViewModels;
 
 namespace NewsApp.DependencyInjection
@@ -8,6 +9,8 @@ namespace NewsApp.DependencyInjection
         public static void Initialize()
         {
             var containerBuilder = new ContainerBuilder();
+
+            containerBuilder.RegisterType<NewsService>();
 
             containerBuilder.RegisterType<MainShell>();
             containerBuilder.RegisterAssemblyTypes(typeof(App).Assembly)

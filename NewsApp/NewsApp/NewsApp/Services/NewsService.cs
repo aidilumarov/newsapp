@@ -36,10 +36,10 @@ namespace NewsApp.Services
 
         private string Local =>
             "https://newsapi.org/v2/everything?q=local&" +
-            "country=us&" + $"apiKey={Settings.NewsApiKey}";
+            $"apiKey={Settings.NewsApiKey}";
 
         private string Global =>
             "https://newsapi.org/v2/everything?q=global&" +
-            "country=us&" + $"apiKey={Settings.NewsApiKey}";
+            $"apiKey={Settings.NewsApiKey}";
     }
 }

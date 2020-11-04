@@ -51,6 +51,7 @@ namespace NewsApp.ViewModels
         public async Task Initialize(NewsScope scope)
         {
             CurrentNews = await newsService.GetNewsAsync(scope);
+            Console.WriteLine();
         }
 
         #endregion
@@ -62,6 +63,7 @@ namespace NewsApp.ViewModels
             {
                 var selectedArticle = selectedItem as Article;
                 var url = HttpUtility.UrlEncode(selectedArticle.Url);
+                await Navigation.NavigateTo($"articleview?url={url}");
             });
 
         #endregion

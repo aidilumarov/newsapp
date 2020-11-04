@@ -8,5 +8,7 @@ namespace NewsApp.ViewModels
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public INavigate Navigation { get; set; } = new Navigator();
     }
 }
